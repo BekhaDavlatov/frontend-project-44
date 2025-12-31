@@ -5,3 +5,6 @@
 <img width="1042" height="263" alt="image" src="https://github.com/user-attachments/assets/30c85323-4a0d-4152-ab66-08f0d68a4d1f" />
 
 https://asciinema.org/a/1zAlITYiWIf8AHKhMr85IFwmf
+
+
+Brain-gcd ------ https://asciinema.org/a/KRJDp4o6RQDqpDlal4xQCyJGa;

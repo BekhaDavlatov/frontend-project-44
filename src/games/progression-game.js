@@ -4,8 +4,7 @@ import { makeProgression } from '../progression.js';
 const minLen = 5;
 const maxLen = 10;
 
-export const description = 'What number is mission in progression?';
-
+export const description = 'What number is missing in the progression?';
 export const generateRound = () => {
   const start = randomInt(1, 50);
   const step = randomInt(1, 10);

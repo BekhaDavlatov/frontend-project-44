@@ -5,4 +5,4 @@ export const gcd = (a, b) => {
     a = temp
   }
   return Math.abs(a)
-};
+}

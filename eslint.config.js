@@ -1,5 +1,5 @@
 // eslint.config.js
-import stylistic from '@stylistic/eslint-plugin';
+import stylistic from '@stylistic/eslint-plugin'
 
 export default [
   {
@@ -24,4 +24,4 @@ export default [
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
     },
   },
-];
+]

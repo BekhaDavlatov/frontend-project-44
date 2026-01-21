@@ -14,11 +14,11 @@ export default function runGame(description, generateRound) {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== round.answer) {
-      console.log('It is wrong answer,');
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${round.answer}'.`);
       console.log(`Lets try again, ${name}`);
       return;
     }
     console.log('Correct!');
   }
-  console.log(`Congratulation, ${name}!`);
+  console.log(`Congratulations, ${name}!`);
 }

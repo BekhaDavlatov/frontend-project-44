@@ -9,7 +9,6 @@ export const generateRound = () => {
   const start = randomInt(1, 50);
   const step = randomInt(1, 10);
   const length = randomInt(minLen, maxLen);
-
   const progression = makeProgression(start, step, length);
   const hiddenIndex = randomInt(0, length - 1);
 

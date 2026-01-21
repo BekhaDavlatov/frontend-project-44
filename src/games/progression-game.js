@@ -17,6 +17,5 @@ export const generateRound = () => {
   progression[hiddenIndex] = '..';
 
   const question = progression.join(' ');
-
   return { question, answer };
 };

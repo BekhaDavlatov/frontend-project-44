@@ -3,6 +3,7 @@ import stylistic from '@stylistic/eslint-plugin';
 
 export default [
   {
+    
     files: ['**/*.js'],
     plugins: {
       '@stylistic': stylistic, // 1. плагин объявлен
